@@ -37,3 +37,29 @@ console.log(value);
 //types of functions 
 //arrow funtions 
 //it is compact way of writing a function.
+//const functionName = ( param1, param2 ...) => {
+
+//do some work }
+
+//sum function in form of arrow function form 
+const arrowsum=(x,y) => {
+    u=x+y;
+    console.log("the sum of x and y is " + u);
+
+}
+arrowsum(4,5);
+const arrowmul=(o,m) =>{
+    i=o*m;
+    console.log("the multiplication of o and m is " + i);
+
+}
+arrowmul(6,8);
+// named function
+//A function that has its own name when declared. It’s easy to reuse and debug because the name shows up in error messages or stack traces.
+const printhello=() =>{
+    console.log("hello");
+
+}
+printhello();
+
+
